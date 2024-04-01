@@ -18,7 +18,17 @@ struct mahasiswa {
 };
 int main()
 {
-    std::cout << "Hello World!\n";
+	mahasiswa mhs;
+	cout << " nomor mahasiswa :";
+	cin >> mhs.nim;
+	cout << " nama mahasiswa :";
+	cin >> mhs.nama;
+
+	cout << " alamat mahasiswa :";
+	cout << "\t nama desa :";
+	cin >> mhs.alamat.desa;
+	cout << " umur mahasiswa :";
+	cin >> mhs.umur;
 }
 
 
