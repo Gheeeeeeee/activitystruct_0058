@@ -8,7 +8,7 @@ struct mahasiswa {
 	string nim;
 	string nama;
 	string alamat;
-	string umur
+	string umur;
 
 };
 
@@ -16,7 +16,9 @@ int main()
 {
 	mahasiswa mhs;
 	cout << " nomor mahasiswa :";
-	cin >> mhs.nim
+	cin >> mhs.nim;
+	cout << " nama mahasiswa :";
+	cin >> mhs.nama;
 }
 
 
