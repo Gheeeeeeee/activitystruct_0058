@@ -19,6 +19,8 @@ int main()
 	cin >> mhs.nim;
 	cout << " nama mahasiswa :";
 	cin >> mhs.nama;
+	cout << " alamat mahasiswa :";
+	cin >> mhs.alamat;
 }
 
 
